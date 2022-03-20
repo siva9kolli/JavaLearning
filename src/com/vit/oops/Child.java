@@ -16,14 +16,16 @@ public class Child extends Parent {
 		child.div(20, 3);
 	}
 	
-	
+	/**
+	 * DIVISION METHOD
+	 */
 	public void div(int a, int b) {
 		System.out.println("remiander value is === " + (a%b));
 	}
 	
 
 	public void sum(int a, int b) {
-		System.out.println("Sum of a & b === " + (a + b));
+		System.out.println("Sum of a & b === " + (a + b));  // SUM OF VARIABLES
 	}
 
 	public void sum(int c, int d, int e) {
