@@ -2,9 +2,12 @@ package com.vit.keywords;
 
 public class LearningKeywords extends KeyWords{
 
+	String automationTool = "Appium";
 	
 	public LearningKeywords(String name) {
 		super(name);
+		//this.automationTool = tool;
+		
 	}
 
 	int pincode = 111;
