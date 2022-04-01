@@ -4,6 +4,7 @@ public class Child extends Parent{
 
 	final int p = 1;
 	
+
 	public void running() {
 		System.out.println("running on thread mill");
 		
